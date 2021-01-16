@@ -7,7 +7,7 @@ public class Bullet implements Serializable {
 	private static final long serialVersionUID = 7564578705984748647L;
 	int bX, bY;
 	int bWidth,bHeight;
-	int speed=5;
+	int speed=5;   //原本是5
 	transient Image bimage;
 	public Bullet(int x,int y,int w,int h){
 		super();

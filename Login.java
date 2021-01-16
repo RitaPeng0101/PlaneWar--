@@ -31,6 +31,7 @@ public class Login extends JFrame implements MouseListener {
     private User login = null;
     
     public static void main(String[] args) {
+    	
 		new Login().setVisible(true);
 	}
     
@@ -115,9 +116,9 @@ public class Login extends JFrame implements MouseListener {
 					
 					
 //					new ShootGameView(login).setVisible(true);
-					
-					Battlefield f=new Battlefield();
-					f.start(f);
+					new DifficultyChoose().setVisible(true);
+//					Battlefield f=new Battlefield();
+//					f.start(f);
 					
 					
 					
@@ -160,7 +161,7 @@ public class Login extends JFrame implements MouseListener {
 		updatePass.setPreferredSize(new Dimension(80, 30));
 		updatePass.setBackground(new Color(90, 177, 234));
 		
-		JButton scores = new JButton("PaiHangBang");
+		JButton scores = new JButton("Ranking");
 		scores.setBounds(110, 200, 120, 30) ;
 		myPanel.add(scores);
 		scores.addActionListener(new ActionListener() {

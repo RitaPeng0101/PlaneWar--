@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.ArrayList;
 public class Missile implements Serializable {
 	/**
-	 *
+	 *导弹类
 	 */
 	private static final long serialVersionUID = 7564578705984248647L;
 	int bX, bY;
